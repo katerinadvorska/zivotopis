@@ -1,20 +1,20 @@
+
 * {
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+}
+
   .column {
     float: left;
     padding: 30px;
-    height: 1080px;
+    
   }
   
   .left {
     width: 25%;
-    
   }
   
   .right {
-    width: 75%;
+    width: 75%; 
   }
   
   .row:after {
@@ -24,11 +24,15 @@
   }
 
   body {
-    background-color: #efefef;
+    background-color: #e8e7e5;
     color: #444440;
     margin: 0;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
+    line-height: 31.8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
   }
 
   h1 {
@@ -48,11 +52,19 @@
     color: #444440;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
-    padding: 10px;
+  }
+
+  h4 {
+    color: #444440;
+    font-family: 'Lato', sans-serif;
+  }
+
+  p {
+    padding-left: 20px;
   }
 
   .foto-uvod {
-    width: 200px;
+    width: 250px;
     border-radius: 50%;
     display: block;
     margin-left: auto;
@@ -60,10 +72,10 @@
     margin-top: 30px;
   }
 
-  .koduji {
+  .insidethebox {
     text-align: center;
     color: #444440;
-    font-size: 35px;
+    font-size: 25px;
     font-style: italic;
     font-weight: 100;
   }
@@ -73,16 +85,13 @@
   .dovednosti,
   .staze,
   .pracovni-zkusenosti,
-  .reference {
-    background-color: #444440;
-    padding: 10px;
+  .reference,
+  .zajmy {
+    background-color: #3e352b;
+    padding: 5px;
     text-align: center;
     border-radius: 20px;
     text-shadow: 0 3px 10px rgb(0, 0, 0, 0.7);
-  }
-
-  p {
-    padding: 10px;
   }
 
   ul {
@@ -95,10 +104,59 @@
   }
 
   .fi {
-    padding: 5px;
+    margin: 10px;
   }
 
   .dateio,
   .coffee {
     background-color: #efefef;
+    border-radius: 20px;
+    padding: 20px;
   }
+
+  .glossa,
+  .reference-dateio {
+    padding: 20px;
+  }
+
+  .menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #271c10;
+    border-radius: 20px 20px 0 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-block: 20px;
+    display: inline-block;
+    border-radius: 5%;
+    font-style: normal;
+}
+
+.menu a:hover {
+    background-color: #3e352b;
+}
+
+.menu a:focus {
+    background-color: #3e352b;
+}
+.menu a:active {
+    background-color: #3e352b;
+}
+
+.paticka {
+  background-color: #271c10;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 0 0 20px 20px;
+  width: 100%;
+}
