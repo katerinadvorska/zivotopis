@@ -71,7 +71,8 @@
   .vzdelani,
   .dovednosti,
   .staze,
-  .pracovni-zkusenosti {
+  .pracovni-zkusenosti,
+  .reference {
     background-color: #444440;
     padding: 10px;
     text-align: center;
@@ -96,6 +97,7 @@
     padding: 5px;
   }
 
-  .dateio {
+  .dateio,
+  .coffee {
     background-color: #efefef;
   }
