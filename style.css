@@ -43,6 +43,13 @@
     font-size: 25px;
   }
 
+  h3 {
+    color: #444440;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+  }
+
   .foto-uvod {
     width: 200px;
     border-radius: 50%;
@@ -82,6 +89,13 @@
   }
 
   a {
-    font-style: italic;
     color: #444440;
+  }
+
+  .fi {
+    padding: 5px;
+  }
+
+  .dateio {
+    background-color: #efefef;
   }
