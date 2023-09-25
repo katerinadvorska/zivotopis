@@ -95,6 +95,7 @@
   ul {
     padding: 10px;
     padding-left: 30px;
+    list-style: none;
   }
 
   a {
@@ -123,6 +124,10 @@
   .glossa,
   .reference-dateio {
     padding: 20px;
+  }
+
+  .kontakt-detaily {
+    padding-left: 10px;
   }
 
   .menu {
