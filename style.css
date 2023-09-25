@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+.row {
+  display: flex;
+}
+
   .column {
     float: left;
     padding: 30px;
@@ -17,11 +21,6 @@
     width: 75%; 
   }
   
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
   body {
     background-color: #e8e7e5;
@@ -42,7 +41,7 @@
   h2 {
     color: #ffffff;
     font-family: 'Public Sans', sans-serif;
-    font-size: 25px;
+    font-size: 2vw;
   }
 
   h3 {
@@ -94,7 +93,7 @@
 
   ul {
     padding: 10px;
-    padding-left: 30px;
+    padding-left: 20px;
     list-style: none;
   }
 
